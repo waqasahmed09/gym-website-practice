@@ -1,0 +1,8 @@
+.box{
+    display: flex;
+    justify-items:center;
+    margin: 20px;
+    margin: 10px;
+    /* text-align: center; */
+}
+

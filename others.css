@@ -1,0 +1,357 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+   
+    .header{
+        background: url('./trainersmain1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+        width: 100%;
+        height: 600px;
+        padding-top: 20px;
+        
+    }
+    .headerblog{
+        background: url('./images/blogsbg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+        padding-top: 20px;
+        
+}
+.headerevents{
+        background: url('./images/eventsbg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+        padding-top: 20px;
+        
+    }
+    
+    .logoorange{
+        font-size: 34px;
+        color: orangered;
+        font-weight: 900;
+    }
+    
+    .membershipmenu{
+        background: url('./trainersmain1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right top;
+        width: 100%;
+        height: 600px;
+        padding-top: 20px;
+        
+    }
+
+
+.left{
+    width: 20%;
+    position: absolute;
+    left: 53px;
+    padding: 5px;
+    
+    
+}
+.mid{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+.menu .list{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+
+}
+.menu .list a{
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+    padding: 10px;
+    margin: 5px;
+}
+.menu .list:hover a{
+    box-shadow: inset 100px 0 0 0 orangered;
+    color: white;
+    border-radius: 5px;
+    
+    /* color: #007dd6; */
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    width: 20%;
+}
+
+.logo{
+    margin: -8px;
+}
+.clear{
+    clear: both;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.btn{
+    padding: 5px;
+    width: 70px;
+    background-color: orangered;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.ttext .tpara{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 200px;
+    font-size: 50px;
+    font-weight: 800;
+    /* font-style: italic; */
+
+}
+.color1{
+    color: orangered;
+}
+.color2{
+    color: rgb(9, 101, 248);
+
+}
+.colorevent{
+    color: white;
+    background-color: darkcyan;
+    opacity: 70%;
+    padding: 10px;
+    border-radius: 30px;   
+}
+
+.abouttrainers{
+    color: black;
+
+}
+.trainers{
+margin-top: 20px;
+padding: 20px;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+background: rgb(206, 204, 204);
+
+}
+.ourtrainers{
+    text-align: center;
+    font-size: 40px;
+    color: orangered;
+}
+.cardtrainer1 img ,h2 {
+    
+    width: 500px;
+    width: 300px;
+    border-radius: 20px;
+    
+    
+}
+.cardtrainer2 img ,h2{
+    width: 500px;
+    width: 300px;
+    border-radius: 20px;
+}
+.cardtrainer3 img ,h2{
+    width: 500px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.cardtrainer4 img ,h2{
+    width: 500px;
+    width: 300px;
+    border-radius: 20px;
+    
+ }
+ 
+.TC{
+    color: black;
+    background: #c3c2c2;
+    padding: 10px;
+    
+}
+.tandc li {
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+    
+}
+.follow .us .fa-facebook{
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+}
+.blog{
+    background: #dad9d9;
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+.blog img{
+    width: 25vw;
+    float: right;
+    margin: 30px;
+    padding: 30px;
+}
+.blog2fl img{
+    width: 25vw;
+    float: left;
+    margin: 30px;
+    padding: 30px;
+}
+.blog1{
+
+    line-height: 30px;
+    line-height: 30px;
+    word-spacing: 1px;
+    
+}
+
+.blog2{
+    line-height: 30px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.won{
+    color: orangered;
+    text-align: center;
+    font-size: 45px;
+    font-weight:900;
+    background-color: rgb(41, 39, 39);
+    padding: 20px;
+}
+
+.win{
+    background-color: rgb(226, 225, 225);
+    text-align: center;
+    /* margin-top: 10px; */
+    color: rgb(0, 0, 0);
+}
+.match1, .match2{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+}
+.box{
+    border: 3px orangered solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.mainbox11 {
+    color: black;
+    width: 800px;    
+    line-height: 30px;
+    word-spacing: 1px;
+    
+}
+.manboxhead{
+    padding-top: 30px;
+
+}
+.mainbox1{
+    /* padding: 20px; */
+    width: 100%;
+    height: 500px;
+    background-color: #c3c2c2;
+    line-height: 25px;
+    margin-top: 20px;
+
+}
+.mainbox11{
+    padding-left: 20px;   
+}
+.mainbox11 a{
+    text-decoration: none;
+    color: orangered;
+}
+.npc{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.imagesect{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form{
+    position: absolute;
+    bottom: 20;
+    border: 2px solid orangered;
+    width: 700px;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    letter-spacing: 2px;
+    top: 130px;
+    right: 280px;
+    
+    
+}
+
+.formmove{
+    margin: auto 0;
+}
+.label{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+#address{
+    width: 470px;
+    height: 2vh;
+}
+.selectplan{
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+}
+#cancel{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#submit{
+    color: white;
+    background: orangered;
+    width: 6vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: rgb(179, 49, 2);
+    transition: 0.4s;
+}
+#cancel:hover{
+    color: gray;
+    transition: 0.4s;
+}

@@ -1,0 +1,374 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial, sans-serif;
+
+   
+}
+.header{
+    background: url('homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}
+
+
+.left{
+    width: 20%;
+    position: absolute;
+    left: 53px;
+    padding: 5px;
+
+    
+}
+.logoorange{
+    font-size: 34px;
+    color: orangered;
+    font-weight: 900;
+}
+.mid{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+.menu .list{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+
+}
+.menu .list a{
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+    padding: 10px;
+    margin: 5px;
+}
+.menu .list:hover a{
+    box-shadow: inset 100px 0 0 0 orangered;
+    color: white;
+    border-radius: 5px;
+    
+    /* color: #007dd6; */
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    width: 20%;
+}
+
+.logo{
+    margin: -8px;
+}
+.clear{
+    clear: both;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.btn{
+    padding: 5px;
+    width: 90px;
+    background-color: green;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+.btn:hover {
+    background-color: white;
+    color: green;
+}
+
+.btn:hover a {
+    /* background-color: white; */
+    color: green;
+    transition: 0.6s ease-out;
+}
+.maintext{
+
+    text-align: center;
+    /* padding: 80px; */
+}
+.maintext .mainheading{
+    /* margin: 80px; */
+    margin: 14px;
+    margin-top: 150px;    
+    font-size: 46px;
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* border: 1px solid #0776ed; */
+    
+}
+.maintext .tagline{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.about{
+    text-align: center;
+    color: black;
+    background: #dfdddd;
+    padding: 10px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.box{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    jus
+    
+}
+.card{
+    background-color: rgb(237 226 226);
+    margin: 25px;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 6px 5px 13px grey;
+}
+.card:hover{
+    background-color: rgb(203, 202, 202);
+    margin: 25px;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 6px 5px 13px rgb(83, 81, 81);
+    transition: 0.4s;
+
+}
+
+.join a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.join{
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 55px;
+    background-color: cornflowerblue;
+    width: 100px;
+}
+.join:hover {
+    background-color: #0776ed;
+    transition: 0.6s;
+
+}
+
+.our {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+
+}
+.our .plantext{
+    font-size: 18px;
+    margin: 10px;
+    color: white !important;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.abouttrainer{
+    /* text-align: center; */
+    color: black;
+    background: #dfdddd;
+    padding: 20px;
+    line-height: 30px;
+    word-spacing: 1px;
+
+}
+.plan{
+    padding: 10px;
+    background: url('./planbg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background: linear-gradient rgba(0, 0, 0,1);
+    
+    
+}
+.abouttrainer .h2{
+    font-size: 24px;
+}
+.aboutpara{
+    font-size: 18px;
+
+}
+
+.TC{
+    color: black;
+    background: #c3c2c2;
+    padding: 10px;
+    
+}
+.tandc li {
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+    
+}
+.follow .us .fa-facebook{
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+}
+
+
+.button{
+
+    font-size: 1em;
+    padding: 9px 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: orangered;
+    border-radius: 50px;
+    
+}
+.overlay{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.wrapper{
+    margin: 70px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.wrapper h2{
+    margin-top: 0;
+    color: #333;
+
+}
+.wrapper .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.wrapper .content {
+    max-height: 30%;
+    overflow: auto;
+
+}
+.container{
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+}
+
+form label {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+input[type="submit"]{
+    background-color: #413b3b;
+    color: #fff;
+    /* padding: 15px 50px; */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+
+
+}
+
+.form{
+    position: absolute;
+    bottom: 20;
+    border: 2px solid orangered;
+    width: 900px;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    letter-spacing: 2px;
+    top: 130px;
+    right: 280px;
+    
+    
+}
+
+
+.label{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+#address{
+    width: 350px;
+    height: 2vh;
+}
+.selectplan{
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+}
+#cancel{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+#submit{
+    color: white;
+    background: orangered;
+    width: 6vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+.jjoin:hover{
+
+    background-color: rgb(192, 56, 7);
+
+
+}
